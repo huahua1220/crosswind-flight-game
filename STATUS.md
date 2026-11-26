@@ -48,3 +48,8 @@ pre-flight validation (game/ and screenshots/ must exist, fails fast naming
 the missing directory), and a build summary line after the dossier write.
 Behaviour for the grader is identical: same copies to the output dir, same
 `buildDossier` caps, same `MAKEFUN_OUTPUT_DIR` (default /output).
+
+## README (update)
+`README.md` added at repo root: the three live make.fun badges
+(bounty / rank / reward), a short description of CROSSWIND, the bounty
+link and run instructions.
