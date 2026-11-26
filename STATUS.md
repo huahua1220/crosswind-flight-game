@@ -41,3 +41,10 @@ R retry; ESC menu.
   all game-side rows pass; transcripts/repo-public rows are the
   submitter's step (kit copy is level 51 vs site 53 — re-download the kit
   before bundling/submitting).
+
+## Entrypoint (update)
+`main.ts` rewritten as original code for CROSSWIND: own header description,
+pre-flight validation (game/ and screenshots/ must exist, fails fast naming
+the missing directory), and a build summary line after the dossier write.
+Behaviour for the grader is identical: same copies to the output dir, same
+`buildDossier` caps, same `MAKEFUN_OUTPUT_DIR` (default /output).
